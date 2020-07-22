@@ -120,4 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
+
+
 STATIC_URL = '/static/'
