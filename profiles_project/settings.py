@@ -127,5 +127,5 @@ AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
